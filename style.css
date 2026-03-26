@@ -1,3 +1,5 @@
+
+
 * {
     border: 1px solid red;
 }
@@ -8,5 +10,96 @@ html {
 
 body {
     border: 1px solid green;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
+.header {
+    display: flex;
+    margin: 0;
+    border: 2px solid green;
+    padding-left: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10%;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.headerlogo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+.links {
+    display: flex;
+    gap: 20px;
+    color: #F9FAF8;
+}
+
+.primarycontent {
+    display: flex;
+    background-color: #1F2937;
+    padding-left: 10%;
+    color: #F9FAF8;
+    justify-content: space-between;
+    padding-right: 10%;
+    height: 40vh;
+}
+
+.primarytext {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 360px;
+    box-sizing: border-box;
+    flex-direction: column;
+    border: 2px solid greenyellow;
+    align-items: flex-start;
+}
+
+.primaryimg {
+    align-self: center;
+    width: 200px;
+    height: 180px;
+}
+
+.primarybutton {
+    background-color: blue;
+    color: #F9FAF8;
+    padding: 9px 18px 9px 18px;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.infobox {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#header2 {
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infobox1, .infobox2, .infobox3, .infobox4 {
+    height: 300px;
+    width: 280px;
+    
+}
+
+.content3 {
+    background-color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
