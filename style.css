@@ -1,15 +1,4 @@
-
-
-* {
-    border: 1px solid red;
-}
-
-html {
-    border: 1px solid blue;
-}
-
 body {
-    border: 1px solid green;
     min-height: 100vh;
     margin: 0;
     font-family: "Roboto", sans-serif;
@@ -18,7 +7,6 @@ body {
 .header {
     display: flex;
     margin: 0;
-    border: 2px solid green;
     padding-left: 16%;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -28,10 +16,11 @@ body {
 }
 
 .headerlogo {
-    color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
+    color: rgb(172, 103, 58);
 }
+
 .links {
     display: flex;
     gap: 20px;
@@ -57,8 +46,13 @@ body {
     height: 340px;
     box-sizing: border-box;
     flex-direction: column;
-    border: 2px solid greenyellow;
     align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+}
+
+.headingtext {
+    margin-top: -10px;
 }
 
 .primaryimg {
@@ -67,9 +61,15 @@ body {
 }
 
 .primarybutton {
-    background-color: blue;
     color: #F9FAF8;
     padding: 9px 18px 9px 18px;
+    font-weight: bold;
+    background-color: #3882F6;
+}
+
+.primaryparagraph {
+    margin-top: -10px;
+    margin-bottom: 30px;
 }
 
 .content2 {
@@ -89,6 +89,7 @@ body {
     justify-self: center;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 50px;
 }
 
 .infobox1, .infobox2, .infobox3, .infobox4 {
@@ -98,11 +99,32 @@ body {
 
 .content3 {
     background-color: #E5E7EB;
+    color: #1F2937;
+    padding-left: 16%;
+    padding-right: 16%;
+    padding-bottom: 16%;
+    padding-top: 10%;
 }
 
+.quotetext {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+}
 .footer {
+    display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
 }
 
 #imgg {
@@ -123,6 +145,55 @@ img {
 }
 
 .figureimg {
-    border: 5px solid rgba(95, 95, 245, 0.829);
+    border: 5px solid rgba(38, 117, 235, 0.829);
     border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    border-radius: 5px;
+    
+}
+
+.content4 {
+    display: flex;
+    justify-content: center;
+}
+
+.popupsignup {
+    display: flex;
+    height: 150px;
+    width: 1000px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #3882F6;
+}
+
+.popuptext {
+    display: flex;
+    flex-direction: column;
+}
+
+.calltoaction {
+    margin-bottom: -10px;
+    color: #F9FAF8;
+}
+
+.signuptext {
+    color: #1F2937;
+}
+
+.lastbutton {
+    color: #F9FAF8;
+    padding: 9px 12px 9px 12px;
+    font-weight: bold;
+    background-color: #3882F6;
+    width: 140px;
+    height: 40px;
+    font-size: larger;
+    border: 3px solid white;
+    padding: 0px;
 }
